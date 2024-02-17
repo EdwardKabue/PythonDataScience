@@ -1,0 +1,3 @@
+NumPy has mathematical functions called universal functions. These functions operate element-wise on an array,
+producing another array as output.
+Shape manipulation is done using functions provided by NumPy. This is useful for data wrangling.

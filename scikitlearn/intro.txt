@@ -1,0 +1,45 @@
+Some scikit-learn models:
+-Clustering - Groups unlabelled data.
+-Cross-validation - Tests the accuracy of supervised models on unseen data.
+-Ensemble methods - Combine the results of various supervised models to make better predictions.
+-Feature selection - Identifies useful properties for creating supervised models.
+-Feature extraction - Extracts features from the data to define the attributes in picture and text data.
+-Parameter tuning - Determine which hyper parameters provide the best results.
+-Supervised learning algorithms - Includes supervised learning techniques like linear regression, support vector machine and decision tree.
+-Unsupervised learning algorithms - Contains all major unsupervised learning methods.
+
+scikit-learn provides sample datasets that can be used for clustering, regression and classification problems.
+E.g. Boston house prices, Iris plants, Wine recognition, breast cancer, digits and diabetes.
+
+sklearn.preprocessing package includes a set of common utility methods and transformer classes for transforming 
+raw feature vectors into the best-fitting representation for downstream estimators. These are:
+-Standardisation (mean removal and variance scaling).
+-Normalisation.
+-Imputation of missing values.
+-Encoding categorical features.
+
+Standardisation:
+It's a scaling approach with normally distributed data. Standardisation also tends to make the dataset's mean 0 and its standard deviation 1.
+
+Normalisation:
+It's a scikit-learn approach that rescales each observation to a length of 1, which is a unit form in linear algebra.
+The following functions are used to achieve functionality to complete normalisation:
+-fit(data)- computes mean and standard deviation for a given feature.
+-transform(data) - generates a transformed dataset using mean and standard deviation which are calculated using the fit method.
+-fit_transform() - Combination of fit and transform methods and increases the efficiency of the model.
+
+Normalisation using MinMaxScaler:
+-MinMaxScaler scales each feature into a defined range. This estimator does this to each feature separately so that it falls within the range given on the training set, for example between 0 and 1.
+
+Imputation of missing values:
+Algorithms cannot process missing values. Imputers infer the value of missing data from existing data.
+
+Categorical variable:
+A variable that has a finite number of possible values and assigns each individual or other unit of observation to a specific group based on some qualitative property.
+E.g. demographic information about a population such as age, gender and status of a disease.
+To deal with categorical variables, use encoding schemes like: ordinal encoding and one-hot encoding.
+Ordinal encoding assigns each unique value to a different variable.
+One-hot encoding adds extra columns to the original data to indicate if every possible value is present.
+
+
+

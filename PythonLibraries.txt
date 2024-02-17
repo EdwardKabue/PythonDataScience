@@ -1,0 +1,5 @@
+Pandas
+NumPy - Handles big matrices and multi-dimensional data.
+SciPy - High level open-source scientific computation package based on a NumPy extension.
+Scikit-Learn - Contains several tools for machine learning and statistical modelling, such as classification, regression, clustering and dimensionality reduction.
+Matplotlib - Open-source library used to plot high definition figures such as pie charts and histograms.
